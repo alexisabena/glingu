@@ -1,0 +1,19 @@
+{
+  "Meta": {
+    "title": "Próximamente — Escuela de idiomas",
+    "description": "Clases en grupo en directo, cursos a tu ritmo y preparación para certificaciones oficiales. Estamos construyendo algo nuevo."
+  },
+  "ComingSoon": {
+    "badge": "Próximamente",
+    "title": "Aprende un idioma de verdad",
+    "titleAccent": "con un método que funciona",
+    "subtitle": "Clases en grupo en directo, cursos a tu ritmo y preparación para certificaciones oficiales. Estamos construyendo algo nuevo.",
+    "emailPlaceholder": "tu@correo.com",
+    "cta": "Avísame",
+    "success": "¡Listo! Te avisaremos en cuanto abramos.",
+    "note": "Sin spam. Solo un aviso cuando estemos en marcha."
+  },
+  "LanguageSwitcher": {
+    "label": "Idioma"
+  }
+}

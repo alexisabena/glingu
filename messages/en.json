@@ -1,0 +1,19 @@
+{
+  "Meta": {
+    "title": "Coming soon — Language school",
+    "description": "Live group classes, self-paced courses, and official certification prep. We are building something new."
+  },
+  "ComingSoon": {
+    "badge": "Coming soon",
+    "title": "Actually learn a language",
+    "titleAccent": "with a method that works",
+    "subtitle": "Live group classes, self-paced courses, and official certification prep. We are building something new.",
+    "emailPlaceholder": "you@email.com",
+    "cta": "Notify me",
+    "success": "You're in! We'll let you know the moment we open.",
+    "note": "No spam. Just one heads-up when we go live."
+  },
+  "LanguageSwitcher": {
+    "label": "Language"
+  }
+}
