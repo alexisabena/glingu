@@ -10,7 +10,7 @@ export function NotifyForm() {
 
   if (submitted) {
     return (
-      <div className="mx-auto inline-block -rotate-1 border-2 border-ink bg-green px-5 py-3 font-display font-bold shadow-brutal">
+      <div className="mx-auto inline-block rounded-full border-2 border-ink bg-teal px-6 py-3 font-display font-bold text-paper shadow-pop">
         {t("success")}
       </div>
     );
@@ -29,11 +29,11 @@ export function NotifyForm() {
         required
         placeholder={t("emailPlaceholder")}
         aria-label={t("emailPlaceholder")}
-        className="flex-1 border-2 border-ink bg-cream px-4 py-3 text-base outline-none placeholder:text-ink/40 focus:shadow-brutal"
+        className="flex-1 rounded-full border-2 border-ink bg-paper px-5 py-3 text-base outline-none placeholder:text-ink/40 focus:shadow-pop"
       />
       <button
         type="submit"
-        className="border-2 border-ink bg-orange px-6 py-3 font-display font-bold uppercase text-cream shadow-brutal transition-transform hover:-translate-x-0.5 hover:-translate-y-0.5 active:translate-x-0 active:translate-y-0"
+        className="rounded-full border-2 border-ink bg-orange px-7 py-3 font-display font-bold uppercase text-paper shadow-pop transition-transform hover:-translate-y-0.5 active:translate-y-0"
       >
         {t("cta")}
       </button>

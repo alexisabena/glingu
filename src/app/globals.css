@@ -1,34 +1,34 @@
 @import "tailwindcss";
 
 /*
-  Brutalist + pastel theme. Predominant orange.
+  Bold + rounded/blobby theme with geometric hints. Predominant orange.
   Brand is TBD — these are working tokens, easy to swap later.
 */
 @theme {
   /* Surfaces */
-  --color-cream: #f6f1e7;
-  --color-ink: #14110f;
+  --color-paper: #faf9f6;
+  --color-gray: #f0f0f0;
+  --color-ink: #1a1613;
 
-  /* Brand + pastels */
-  --color-orange: #ff6a1a;
-  --color-orange-soft: #ffb27d;
-  --color-pink: #f7bfcd;
-  --color-blue: #a9c9ec;
-  --color-yellow: #f7d36b;
-  --color-green: #aedcb7;
-  --color-purple: #cdb8ec;
+  /* Brand palette (from brand swatch) */
+  --color-orange: #f7941e;
+  --color-coral: #f44c5e;
+  --color-teal: #0da88c;
+  --color-sky: #08a8e8;
+  --color-purple: #9d54a6;
+  --color-yellow: #ffd200;
 
   /* Fonts (runtime values injected by next/font on <html>) */
   --font-display: var(--font-bricolage);
   --font-sans: var(--font-inter);
 
-  /* Hard, blur-free brutalist shadow */
-  --shadow-brutal: 5px 5px 0 0 var(--color-ink);
-  --shadow-brutal-lg: 8px 8px 0 0 var(--color-ink);
+  /* Soft offset shadows — bold but not harsh */
+  --shadow-pop: 4px 5px 0 0 rgba(26, 22, 19, 0.9);
+  --shadow-soft: 0 10px 30px -12px rgba(26, 22, 19, 0.35);
 }
 
 :root {
-  --background: var(--color-cream);
+  --background: var(--color-paper);
   --foreground: var(--color-ink);
 }
 
@@ -36,4 +36,15 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Organic blob shapes (geometric hint, but soft) */
+.blob-1 {
+  border-radius: 42% 58% 63% 37% / 45% 40% 60% 55%;
+}
+.blob-2 {
+  border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+}
+.blob-3 {
+  border-radius: 50% 50% 47% 53% / 58% 56% 44% 42%;
 }

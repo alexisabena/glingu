@@ -11,9 +11,9 @@ export function LanguageSwitcher() {
   return (
     <nav
       aria-label="Language"
-      className="flex items-center border-2 border-ink bg-cream shadow-brutal"
+      className="flex items-center overflow-hidden rounded-full border-2 border-ink bg-paper shadow-pop"
     >
-      {routing.locales.map((locale, i) => {
+      {routing.locales.map((locale) => {
         const isActive = locale === active;
         return (
           <Link
@@ -22,11 +22,10 @@ export function LanguageSwitcher() {
             locale={locale}
             aria-current={isActive ? "true" : undefined}
             className={[
-              "px-3 py-1.5 font-display text-sm font-bold uppercase transition-colors",
-              i > 0 ? "border-l-2 border-ink" : "",
+              "px-4 py-1.5 font-display text-sm font-bold uppercase transition-colors",
               isActive
-                ? "bg-orange text-cream"
-                : "bg-cream text-ink hover:bg-yellow",
+                ? "bg-orange text-paper"
+                : "bg-paper text-ink hover:bg-yellow",
             ].join(" ")}
           >
             {locale}
