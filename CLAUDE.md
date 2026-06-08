@@ -2,21 +2,23 @@
 
 ---
 
-## ⏭️ Session handoff (added 2026-06-04)
+## ⏭️ Session handoff (updated 2026-06-07)
 
-**First thing next session: ask Alexis what to work on next.** He had to leave
-mid-session and explicitly asked to be prompted again. Present these options
-(see `docs/ROADMAP.md` for context):
+**Project state:** Fase 0 + Fase 1 landing done & pushed to `main`. Full
+bilingual (ES default / EN) sectioned landing: Header, Hero (video slot),
+Offerings, How-it-works, About, FAQ, Lead form (Netlify Forms), Footer.
+Bold brand palette + rounded/blobby aesthetic. Hosting decided: **Netlify**
+(free) with Cloudflare migration triggers in `docs/HOSTING.md`. Central project
+doc lives in the vault: `studio-vault/projects/glingu/spec.md`.
 
-1. **Deploy to Vercel + connect the domain** — finishes Phase 0 (needs Alexis to log into Vercel).
-2. **Start Phase 1 landing** — real sections (hero video, offerings, about, FAQ) + wire the lead form to a real destination.
-3. **Recover old Webflow copy** from the Wayback Machine to seed Phase 1 content.
-4. **Refine the coming-soon hero** further before moving on.
+**Pending — needs Alexis / his brother:**
+1. **Point the repo to Netlify** (deploy) + enable Netlify usage/billing alerts.
+2. **Domain DNS → Netlify** — domain is the brother's (bought via Squarespace);
+   only DNS-pointing needed to launch, no transfer required. **Talk to brother.**
+3. **Real content** to replace drafts: hero video (YouTube unlisted), teacher
+   bio + photo, testimonials/certifications, offering details/prices.
+   Search the repo for `TODO` placeholders.
+4. Open decision: add `.gitattributes` (`* text=auto eol=lf`) for CRLF warnings.
 
-Also still pending his decision: whether to add a `.gitattributes`
-(`* text=auto eol=lf`) to stop the Windows CRLF warnings.
-
-**Project state:** Phase 0 done & pushed to `main` — Next.js 16 + next-intl
-(ES default, EN), bold brand palette + rounded/blobby aesthetic, bilingual
-coming-soon page with working language switcher. Not deployed yet; lead form
-is a visual stub. Remove this handoff block once addressed.
+**Likely next build:** Phase 2 (products catalog + Stripe Payment Links) per
+`docs/ROADMAP.md`, or polish/real-content pass on the landing.
