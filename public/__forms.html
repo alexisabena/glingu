@@ -1,0 +1,17 @@
+<!--
+  Static form definition so Netlify can detect the "lead" form at build time.
+  The real form is the React <LeadForm/>, which POSTs to this endpoint.
+  See: https://docs.netlify.com/manage/forms/setup/#javascript-forms
+-->
+<html>
+  <head><meta charset="utf-8" /></head>
+  <body>
+    <form name="lead" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="lead" />
+      <input name="bot-field" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="locale" />
+    </form>
+  </body>
+</html>

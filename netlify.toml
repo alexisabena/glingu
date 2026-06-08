@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+
+# The official Next.js runtime is auto-installed by Netlify and handles
+# the publish directory, SSR, and the locale proxy. Forms are detected
+# from public/__forms.html at build time.

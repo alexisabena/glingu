@@ -1,17 +1,76 @@
 {
   "Meta": {
-    "title": "Próximamente — Escuela de idiomas",
-    "description": "Clases en grupo en directo, cursos a tu ritmo y preparación para certificaciones oficiales. Estamos construyendo algo nuevo."
+    "title": "Aprende idiomas con un método que funciona",
+    "description": "Clases en grupo en directo, cursos a tu ritmo y preparación para certificaciones oficiales. Aprende con un profesor que se adapta a ti."
   },
-  "ComingSoon": {
-    "badge": "Próximamente",
+  "Nav": {
+    "offerings": "Oferta",
+    "how": "Cómo funciona",
+    "about": "El profesor",
+    "faq": "Preguntas",
+    "cta": "Empezar"
+  },
+  "Hero": {
+    "badge": "Clases de idiomas en vivo",
     "title": "Aprende un idioma de verdad",
     "titleAccent": "con un método que funciona",
-    "subtitle": "Clases en grupo en directo, cursos a tu ritmo y preparación para certificaciones oficiales. Estamos construyendo algo nuevo.",
+    "subtitle": "Clases en grupo en directo, cursos a tu ritmo y preparación para certificaciones oficiales. Aprende con un profesor que se adapta a ti.",
+    "ctaPrimary": "Reserva tu clase",
+    "ctaSecondary": "Haz el test de nivel",
+    "videoCaption": "Conoce el método en 90 segundos"
+  },
+  "Offerings": {
+    "title": "Tres formas de aprender",
+    "subtitle": "Elige el formato que encaja contigo.",
+    "groupTitle": "Clases en grupo",
+    "groupDesc": "Sesiones en vivo por videollamada, en grupos pequeños para que hables desde el primer día.",
+    "groupCta": "Ver clases",
+    "coursesTitle": "Cursos a tu ritmo",
+    "coursesDesc": "Material estructurado que avanzas cuando quieras, con seguimiento del profesor.",
+    "coursesCta": "Ver cursos",
+    "certTitle": "Certificaciones oficiales",
+    "certDesc": "Preparación enfocada para exámenes oficiales como el DELE.",
+    "certCta": "Preparar examen"
+  },
+  "HowItWorks": {
+    "title": "Cómo funciona",
+    "step1Title": "Haz el test de nivel",
+    "step1Desc": "En 5 minutos sabes tu punto de partida.",
+    "step2Title": "Elige tu formato",
+    "step2Desc": "Clases en grupo, curso o preparación de examen.",
+    "step3Title": "Empieza a aprender",
+    "step3Desc": "Te unes a tus clases en vivo y avanzas con apoyo."
+  },
+  "About": {
+    "title": "Sobre el profesor",
+    "body": "Profesor de idiomas dedicado a que sus estudiantes hablen con confianza desde el primer día, con un método comunicativo y cercano. (Borrador — reemplazar con la biografía real.)",
+    "credentials": "Método comunicativo · Clases en vivo · Preparación de certificaciones"
+  },
+  "Faq": {
+    "title": "Preguntas frecuentes",
+    "q1": "¿Qué idiomas puedo aprender?",
+    "a1": "Empezamos con español; pronto se añadirán más idiomas.",
+    "q2": "¿Cómo son las clases?",
+    "a2": "En vivo por videollamada (Google Meet), en grupos pequeños o de forma individual.",
+    "q3": "¿Necesito un nivel previo?",
+    "a3": "No. Haz el test de nivel gratis y empezamos justo donde estés.",
+    "q4": "¿Preparáis certificaciones oficiales?",
+    "a4": "Sí, con preparación enfocada para exámenes como el DELE."
+  },
+  "Lead": {
+    "title": "¿Listo para empezar?",
+    "subtitle": "Déjanos tu correo y te contamos cómo dar el primer paso.",
+    "namePlaceholder": "Tu nombre",
     "emailPlaceholder": "tu@correo.com",
-    "cta": "Avísame",
-    "success": "¡Listo! Te avisaremos en cuanto abramos.",
-    "note": "Sin spam. Solo un aviso cuando estemos en marcha."
+    "cta": "Quiero empezar",
+    "success": "¡Gracias! Te escribiremos muy pronto.",
+    "note": "Sin spam. Solo información útil."
+  },
+  "Footer": {
+    "tagline": "Clases de idiomas en vivo, cursos y certificaciones.",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos"
   },
   "LanguageSwitcher": {
     "label": "Idioma"

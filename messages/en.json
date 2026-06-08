@@ -1,17 +1,76 @@
 {
   "Meta": {
-    "title": "Coming soon — Language school",
-    "description": "Live group classes, self-paced courses, and official certification prep. We are building something new."
+    "title": "Learn a language with a method that works",
+    "description": "Live group classes, self-paced courses, and official certification prep. Learn with a teacher who adapts to you."
   },
-  "ComingSoon": {
-    "badge": "Coming soon",
+  "Nav": {
+    "offerings": "Offerings",
+    "how": "How it works",
+    "about": "The teacher",
+    "faq": "FAQ",
+    "cta": "Get started"
+  },
+  "Hero": {
+    "badge": "Live language classes",
     "title": "Actually learn a language",
     "titleAccent": "with a method that works",
-    "subtitle": "Live group classes, self-paced courses, and official certification prep. We are building something new.",
+    "subtitle": "Live group classes, self-paced courses, and official certification prep. Learn with a teacher who adapts to you.",
+    "ctaPrimary": "Book a class",
+    "ctaSecondary": "Take the placement test",
+    "videoCaption": "See the method in 90 seconds"
+  },
+  "Offerings": {
+    "title": "Three ways to learn",
+    "subtitle": "Pick the format that fits you.",
+    "groupTitle": "Group classes",
+    "groupDesc": "Live video sessions in small groups so you speak from day one.",
+    "groupCta": "See classes",
+    "coursesTitle": "Self-paced courses",
+    "coursesDesc": "Structured material you move through anytime, with teacher feedback.",
+    "coursesCta": "See courses",
+    "certTitle": "Official certifications",
+    "certDesc": "Focused prep for official exams such as the DELE.",
+    "certCta": "Prep the exam"
+  },
+  "HowItWorks": {
+    "title": "How it works",
+    "step1Title": "Take the placement test",
+    "step1Desc": "Know your starting point in 5 minutes.",
+    "step2Title": "Choose your format",
+    "step2Desc": "Group classes, a course, or exam prep.",
+    "step3Title": "Start learning",
+    "step3Desc": "Join your live classes and progress with support."
+  },
+  "About": {
+    "title": "About the teacher",
+    "body": "A language teacher devoted to getting students speaking with confidence from day one, with a warm, communicative method. (Draft — replace with the real bio.)",
+    "credentials": "Communicative method · Live classes · Certification prep"
+  },
+  "Faq": {
+    "title": "Frequently asked questions",
+    "q1": "Which languages can I learn?",
+    "a1": "We start with Spanish; more languages are coming soon.",
+    "q2": "What are the classes like?",
+    "a2": "Live over video (Google Meet), in small groups or one-on-one.",
+    "q3": "Do I need a prior level?",
+    "a3": "No. Take the free placement test and we start right where you are.",
+    "q4": "Do you prepare official certifications?",
+    "a4": "Yes, with focused prep for exams such as the DELE."
+  },
+  "Lead": {
+    "title": "Ready to start?",
+    "subtitle": "Leave your email and we'll show you how to take the first step.",
+    "namePlaceholder": "Your name",
     "emailPlaceholder": "you@email.com",
-    "cta": "Notify me",
-    "success": "You're in! We'll let you know the moment we open.",
-    "note": "No spam. Just one heads-up when we go live."
+    "cta": "I want to start",
+    "success": "Thank you! We'll be in touch very soon.",
+    "note": "No spam. Just useful info."
+  },
+  "Footer": {
+    "tagline": "Live language classes, courses, and certifications.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
   },
   "LanguageSwitcher": {
     "label": "Language"
