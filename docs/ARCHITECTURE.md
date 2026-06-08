@@ -13,7 +13,7 @@ This document describes the technical stack, structure, and conventions. For seq
 |---|---|---|
 | Framework | **Next.js (App Router)** | One codebase for landing + future app; SSR for SEO |
 | Styling | **Tailwind CSS** | Fast, consistent, no design system overhead early |
-| Hosting | **Vercel** | Zero-config deploys, preview URLs, free to start |
+| Hosting | **Netlify** | Familiar DX, git-deploy + preview URLs, commercial-OK free tier. Migration triggers to Cloudflare in `HOSTING.md` |
 | i18n | **`next-intl`** | Locale-prefixed routes, message catalogs |
 | Database + Auth + Storage | **Supabase** (Postgres) | Relational fit for LMS data; magic-link auth |
 | Payments | **Stripe** | Payment Links first → Checkout + Billing + Customer Portal |
@@ -102,7 +102,7 @@ This mirrors the teacher's existing workflow and avoids a multi-month video-infr
 - [ ] **Google Workspace** — dedicated account for the business (owns Calendar/Meet/Drive/email). *Do not use a personal Gmail as the integration owner.*
 - [ ] **Stripe** account (start with Payment Links; enable **Stripe Tax** for EU VAT before first real sale).
 - [ ] **Supabase** project.
-- [ ] **Vercel** project (connect the repo).
+- [ ] **Netlify** project (connect the repo); enable usage/billing alerts.
 - [ ] **Resend** account (verify the sending domain).
 - [ ] **Analytics** (Plausible or GA4).
 - [ ] **Google Cloud project** for the Calendar API (OAuth consent on the Workspace account) — needed in Roadmap B, not the landing page.
@@ -111,7 +111,7 @@ This mirrors the teacher's existing workflow and avoids a multi-month video-infr
 
 ## 7. Secrets & environment
 
-- All secrets in `.env.local` (gitignored) and Vercel project env vars. **Never commit keys.**
+- All secrets in `.env.local` (gitignored) and Netlify project env vars. **Never commit keys.**
 - Expected keys (grow over time): `NEXT_PUBLIC_SITE_URL`, Supabase URL + anon/service keys, Stripe secret + webhook signing secret, Resend API key, Google OAuth client/secret (Roadmap B).
 - Use **test-mode** Stripe keys until launch.
 
@@ -123,7 +123,7 @@ The teacher and audience are likely EU (Spain). Treat GDPR as a launch requireme
 
 - **Privacy Policy, Terms, Cookie Policy** required before launch (Roadmap A, Phase 4).
 - **Cookie consent** banner is **mandatory** (GA4 sets cookies). GA4 must not load until the user opts in — wire consent before shipping analytics.
-- **Data processors** to name: Stripe, Supabase, Google, Resend, Vercel.
+- **Data processors** to name: Stripe, Supabase, Google, Resend, Netlify.
 - **PCI:** never handle card data — Stripe-hosted pages only.
 - **Auth:** never roll our own; Supabase handles hashing, sessions, confirmation emails.
 - **Calendar integration owner:** dedicated Workspace account with scoped OAuth — not a personal account.

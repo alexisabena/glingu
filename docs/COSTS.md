@@ -24,7 +24,7 @@ Nothing is paid yet. The table below is the plan + triggers, not active charges.
 | Service | Purpose | Current tier | Monthly | Triggers next tier | Next tier | Notes |
 |---|---|---|---|---|---|---|
 | **Domain** | Web address | Registered (Squarespace) | ~$1–2/mo equiv | Annual renewal | ~$10–20 / **year** | Owned by brother. May transfer to Namecheap later (not required to launch). |
-| **Hosting** | Serve the site | TBD — Netlify free *(leaning)* | $0 | Traffic / build limits, commercial ToS | Netlify Pro ~$19 · CF Workers **$5 flat** · Vercel Pro ~$20 | Cloudflare = unlimited bandwidth, flat $5 step. Vercel Hobby is **non-commercial** — avoid for a paid site. |
+| **Hosting** | Serve the site | **Netlify Starter (free)** | $0 | See migration triggers in `HOSTING.md` | Netlify Pro ~$19 · **migrate → Cloudflare ($0, flat $5 if exceeded)** | Chosen for familiarity + commercial-OK free tier. Move to Cloudflare when usage (not a needed feature) would force Netlify Pro. |
 | **Supabase** | Auth + database + storage | Not yet (free at launch) | $0 | >50k MAU, >500MB DB, or pausing | Pro ~$25 | Only needed in Roadmap B (LMS). Free tier pauses after inactivity. |
 | **Stripe** | Payments | Pay-per-use | $0 base | Per transaction | **~1.5% + €0.25** (EU cards) | No monthly fee. **Stripe Tax** adds ~0.5%/txn if enabled (VAT). Higher % for non-EU/Amex cards. |
 | **Google Workspace** | Business email + Calendar/Meet/Drive owner | Not yet | $0 | On signup | **~$6–7 / user / mo** (Business Starter) | Dedicated business account (not personal Gmail). 1 user to start. |

@@ -44,7 +44,7 @@
 ### Phase 0 — Foundations (Day 1)
 **Goal:** Something real on the real domain, today.
 - [ ] Create the third-party accounts (see `ARCHITECTURE.md` → "Accounts to create").
-- [ ] Next.js + Tailwind project, deployed to Vercel.
+- [ ] Next.js + Tailwind project, deployed to Netlify.
 - [ ] Domain connected, HTTPS working.
 - [ ] Analytics installed (**GA4**) — loaded only after cookie consent.
 - [ ] Cookie consent banner in place (required by GA4, do not defer).
